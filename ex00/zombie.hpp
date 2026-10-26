@@ -3,11 +3,13 @@
 
 #include <string>
 
-class zombie
+class Zombie
 {
-	private :
+	private:
 		std::string name;
-		void announce(void);
+
+	public:
+		void announce( void);
 };
 
 #endif
